@@ -2,16 +2,16 @@
 This is a coursework deliverd by University of Glasgow, Machine Learning & Artificial Intelligence for Data Scientists.
 And was completed in a group with Weijian Ning.
 
-##Predicting Central Neuropathic Pain (CNP) in people with Spinal Cord Injury (SCI) from Electroencephalogram (EEG) data.
+## Predicting Central Neuropathic Pain (CNP) in people with Spinal Cord Injury (SCI) from Electroencephalogram (EEG) data.
 * CNP is pain in response to non-painful stimuli, episodic (electric shock), “pins and needles”, numbness
 * There is currently no treatment, only prevention
 * Preventative medications have strong side-effects
 * Predicting whether a patient is likely to develop pain is useful for selective treatment
 
-##Task
+## Task
 Your task is to devise a feature engineering strategy which, in combination with a classifier of your choice, optizimes prediction accuracy.
 
-##Data
+## Data
 The data is preprocessed brain EEG data from SCI patients recorded while resting with eyes closed (EC) and eyes opened (EO).
 
 * 48 electrodes recording electrical activity of the brain at 250 Hz
@@ -31,8 +31,8 @@ The data is preprocessed brain EEG data from SCI patients recorded while resting
   * feature identifiers for all columns are stored in 'feature_names.csv'
   * 'labels.csv' defines the corresponding class (0 or 1) to each row in data.csv
   
-##Objective Measure
+## Objective Measure
 Leave one subject out cross-validation accuracy, sensitivity and specificity.
 
-##Report
+## Report
 For more the final report, please have a check in the .pdf file.
